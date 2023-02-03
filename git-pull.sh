@@ -2,11 +2,15 @@
 
 # repo path to pull
 
-cd /e/bash
+#cd /e/bash
 
-git branch
+#git branch
 # repo url
 
-repo-url=https://github-ci-token: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@github.com/arjundeepak/MY-test-project.git/git-pull.sh
+#repo-url=https://github-ci-token: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@github.com/arjundeepak/MY-test-project.git/git-pull.
 
-git pull
+branch=main
+
+if [$branch -eq main]
+then
+ echo git pull
